@@ -1,0 +1,24 @@
+@import url(../style.css);
+
+.avatar {
+    height: 32px;
+    width: 32px;
+}
+
+.avatar-xl {
+    height: 48px;
+    width: 48px;
+}
+
+.avatar-xxl {
+    height: 64px;
+    width: 64px;
+}
+
+.avatar-round {
+    border-radius: 50%;
+}
+
+.avatar-square {
+    border-radius: 10%;
+}

@@ -1,0 +1,52 @@
+@import url(../style.css);
+@import url(../avatar/avatar.css);
+
+.icon-with-badge {
+    position: relative;
+    width: fit-content;
+}
+
+.badge {
+    position: absolute;
+    top: -0.7rem;
+    right: -0.7rem;
+    color: white;
+    height: 1.25rem;
+    width: 1.5rem;
+    padding: 0.375rem;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: var(--danger);
+}
+
+.blue {
+    background-color: var(--secondary);
+}
+
+.dark-blue {
+    background-color: var(--primary);
+}
+
+.yellow {
+    background-color: var(--warning);
+}
+
+.green {
+    background-color: var(--success);
+}
+
+.avatar-with-badge {
+    position: relative;
+    width: max-content;
+}
+
+.badge-avatar {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: .375rem;
+    border-radius: 50%;
+}
