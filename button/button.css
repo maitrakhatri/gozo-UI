@@ -77,3 +77,15 @@
     background-color: var(--danger);
     color: white;
 }
+
+.btn-floating-action {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    padding: .5rem .75rem;
+    border-radius: 50%;
+}
+
+.btn a {
+    color: inherit;
+}
