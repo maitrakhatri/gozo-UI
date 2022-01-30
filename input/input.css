@@ -1,0 +1,35 @@
+@import url(../style.css);
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.input-group input {
+    padding: .5rem;
+}
+
+.input-group input:focus {
+    outline: none;
+}
+
+.error {
+    color: var(--danger);
+}
+
+.warning {
+    color: var(--warning);
+}
+
+.success {
+    color: var(--success);
+}
+
+.error input {
+    border: 1px solid var(--danger);
+}
+
+.msg {
+    font-size: small;
+}
