@@ -1,0 +1,32 @@
+@import url(../style.css);
+
+.img-res {
+    width: 100%;
+    height: auto;
+}
+
+.img-round-250px {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.img-round-150px {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.img-square-250px {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.img-square-150px {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}

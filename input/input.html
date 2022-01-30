@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input</title>
+    <link rel="stylesheet" href="input.css">
+    <style>
+        /* JUST FOR DISPLAY PURPOSES. NOT A PART OF COMPONENT */
+
+        .container {
+            background-color: var(--bg-cus);
+            padding: 2rem 6rem;
+            margin: 1rem;
+            border-radius: .25rem;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        
+        <div class="input-group">
+            <label>Username *</label>
+            <input type="text" />
+        </div>
+
+        <div class="input-group">
+            <label>Password *</label>
+            <input type="password" />
+        </div>
+
+    </div>
+
+    <div class="container">
+        
+        <div class="input-group error">
+            <label>Username *</label>
+            <input type="text" />
+            <div class="error-msg">Invalid Username</div>
+        </div>
+
+        <div class="input-group error">
+            <label>Password *</label>
+            <input type="password" />
+            <div class="error-msg">Invalid Password</div>
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <div class="input-group">
+            <label>Password *</label>
+            <input type="password" />
+            <div class="error msg">Too short. Must be more than 6 characters</div>
+        </div>
+
+        <div class="input-group">
+            <label>Password *</label>
+            <input type="password" />
+            <div class="warning msg">Weak Password</div>
+        </div>
+
+        <div class="input-group">
+            <label>Password *</label>
+            <input type="password" />
+            <div class="success msg">Good to go !!</div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
