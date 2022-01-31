@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card</title>
+    <link rel="stylesheet" href="card.css">
+    <style>
+
+        /* ONLY FOR DISPLAY PURPOSES. NOT PART OF COMPONENT */
+
+        body {
+            margin: 2rem;
+            display: inline-flex;
+            flex-flow: row wrap;
+        }
+
+        body > div {
+            margin: 2rem;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="card">
+
+        <div class="card-title">
+            Text only Card
+        </div>
+
+        <div class="card-body">
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, dicta!
+            </p>
+        </div>
+
+    </div>
+
+    <div class="card card-with-badge">
+
+        <div class="card-title">
+            Card with Badge
+        </div>
+
+        <div class="card-body">
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, dicta!
+            </p>
+        </div>
+
+        <span class="badge blue">5</span>
+
+    </div>
+
+    <div class="card">
+
+        <div class="card-title dismiss">
+            Card with dismiss
+            <img src="close_black_24dp.svg" alt="close button">
+        </div>
+
+        <div class="card-body">
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, dicta!
+            </p>
+        </div>
+
+    </div>
+
+
+    <div class="card card-with-image">
+
+        <div class="card-img">
+            <img src="https://picsum.photos/300/150" alt="card image">
+        </div>
+
+        <div class="card-title">
+            Card with Image
+        </div>
+
+        <div class="card-body">
+            Lorem ipsum dolor sit amet.
+        </div>
+
+    </div>
+
+    <div class="card card-with-image shadow">
+
+        <div class="card-img">
+            <img src="https://picsum.photos/300/150" alt="card image">
+        </div>
+
+        <div class="card-title">
+            Card with Shadow
+        </div>
+
+        <div class="card-body">
+            Lorem ipsum dolor sit amet.
+        </div>
+
+    </div>
+
+    <div class="card card-with-image horizontal">
+
+        <div class="card-img">
+            <img src="https://picsum.photos/150/150" alt="card image">
+        </div>
+
+        <div class="card-side-body">
+
+            <div class="card-title">
+                Horizontal Card
+            </div>
+
+            <div class="card-body">
+                Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, doloremque? amet consectetur adipisicing elit. Perspiciatis, odio.
+            </div>
+        </div>
+
+    </div>
+
+    <div class="card card-with-image vertical">
+
+        <div class="card-img">
+            <img src="https://picsum.photos/200/300" alt="card image">
+        </div>
+
+        <div class="card-title">
+            Vertical/Standard Card
+        </div>
+
+        <div class="card-body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, necessitatibus?
+        </div>
+
+    </div>
+
+    <div class="card card-with-image text-overlay">
+
+        <div class="card-title">
+            <div class="card-img">
+            <img src="https://picsum.photos/300/150" alt="card image">
+            </div>
+            <div class="card-overlay-title">
+                Text Overlay
+            </div>
+        </div>
+
+        <div class="card-body">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, eaque.
+        </div>
+        
+
+    </div>
+
+</body>
+</html>
