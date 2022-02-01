@@ -4,8 +4,8 @@
     border: none;
     padding: .5rem 1rem;
     color: white;
-    font-size: 16px;
-    border-radius: 2px;
+    font-size: 1rem;
+    border-radius: 0.125rem;
     background-color: #fff;
 }
 
@@ -13,68 +13,68 @@
     cursor: pointer;
 }
 
-.btn-primary {
-    background-color: var(--primary);
+.btn-blue {
+    background-color: var(--blue);
 }
 
-.btn-secondary {
-    background-color: var(--secondary);
+.btn-lightblue {
+    background-color: var(--lightblue);
 }
 
-.btn-success {
-    background-color: var(--success);
+.btn-green {
+    background-color: var(--green);
 }
 
-.btn-warning {
-    background-color: var(--warning);
+.btn-yellow {
+    background-color: var(--yellow);
 }
-.btn-danger {
-    background-color: var(--danger);
-}
-
-.btn-outline-primary {
-    border: 2px solid var(--primary);
-    color: var(--primary);
+.btn-red {
+    background-color: var(--red);
 }
 
-.btn-outline-secondary {
-    border: 2px solid var(--secondary);
-    color: var(--secondary);
+.btn-outline-blue {
+    border: 0.125rem solid var(--blue);
+    color: var(--blue);
 }
 
-.btn-outline-success {
-    border: 2px solid var(--success);
-    color: var(--success)
+.btn-outline-lightblue {
+    border: 0.125rem solid var(--lightblue);
+    color: var(--lightblue);
 }
 
-.btn-outline-warning {
-    border: 2px solid var(--warning);
-    color: var(--warning);
+.btn-outline-green {
+    border: 0.125rem solid var(--green);
+    color: var(--green)
 }
-.btn-outline-danger {
-    border: 2px solid var(--danger);
-    color: var(--danger);
+
+.btn-outline-yellow {
+    border: 0.125rem solid var(--yellow);
+    color: var(--yellow);
+}
+.btn-outline-red {
+    border: 0.125rem solid var(--red);
+    color: var(--red);
 }
 
 .btn-hover:hover {
     color: white;
 }
 
-.btn-hover.btn-outline-primary:hover {
-    background-color: var(--primary);
+.btn-hover.btn-outline-blue:hover {
+    background-color: var(--blue);
 }
 
-.btn-hover.btn-outline-secondary:hover {
-    background-color: var(--secondary);
+.btn-hover.btn-outline-lightblue:hover {
+    background-color: var(--lightblue);
 }
-.btn-hover.btn-outline-success:hover {
-    background-color: var(--success);
+.btn-hover.btn-outline-green:hover {
+    background-color: var(--green);
 }
-.btn-hover.btn-outline-warning:hover {
-    background-color: var(--warning);
+.btn-hover.btn-outline-yellow:hover {
+    background-color: var(--yellow);
 }
-.btn-hover.btn-outline-danger:hover {
-    background-color: var(--danger);
+.btn-hover.btn-outline-red:hover {
+    background-color: var(--red);
 }
 
 .btn-floating-action {

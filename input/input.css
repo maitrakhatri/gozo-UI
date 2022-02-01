@@ -14,22 +14,6 @@
     outline: none;
 }
 
-.error {
-    color: var(--danger);
-}
-
-.warning {
-    color: var(--warning);
-}
-
-.success {
-    color: var(--success);
-}
-
-.error input {
-    border: 1px solid var(--danger);
-}
-
 .msg {
     font-size: small;
 }

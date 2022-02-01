@@ -1,52 +1,7 @@
 @import url(../style.css);
 
 .alert {
-    border-radius: 3px;
+    border-radius: 0.188rem;
     padding: 0.75rem;
     margin: 2rem;
-    color: white;
-}
-
-.alert-primary {
-    background-color: var(--primary);
-}
-
-.alert-secondary {
-    background-color: var(--secondary);
-}
-
-.alert-success {
-    background-color: var(--success);
-}
-
-.alert-warning {
-    background-color: var(--warning);
-}
-
-.alert-danger {
-    background-color: var(--danger);
-}
-
-.outline-primary {
-    border: 2px solid var(--primary);
-    color: var(--primary);
-}
-
-.outline-secondary {
-    border: 2px solid var(--secondary);
-    color: var(--secondary);
-}
-
-.outline-success {
-    border: 2px solid var(--success);
-    color: var(--success)
-}
-
-.outline-warning {
-    border: 2px solid var(--warning);
-    color: var(--warning);
-}
-.outline-danger {
-    border: 2px solid var(--danger);
-    color: var(--danger);
 }

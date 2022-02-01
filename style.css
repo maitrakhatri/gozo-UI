@@ -1,6 +1,9 @@
 /* RESETTING CSS FOR STANDARD CSS IN ALL BROWSERS */
 @import url(./reset.css);
 
+/* UTILITIES */
+@import url(./utils.css);
+
 /* FONT */
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
 
@@ -11,10 +14,10 @@
 
 /* DEFINING CUSTOM COLORS */
 :root {
-    --primary: #14213D;
-    --secondary: #2E86AB;
-    --success: rgb(12, 195, 12);
-    --danger: #F24236; 
-    --warning: #FCA311;
-    --bg-cus: #E5E5E5;
+    --blue: #14213D;
+    --lightblue: #2E86AB;
+    --green: rgb(12, 195, 12);
+    --red: #F24236; 
+    --yellow: #FCA311;
+    --gray: #FAFAFA;
 }
