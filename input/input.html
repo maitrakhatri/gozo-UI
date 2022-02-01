@@ -10,7 +10,7 @@
         /* JUST FOR DISPLAY PURPOSES. NOT A PART OF COMPONENT */
 
         .container {
-            background-color: var(--bg-cus);
+            background-color: var(--gray);
             padding: 2rem 6rem;
             margin: 1rem;
             border-radius: .25rem;
@@ -39,15 +39,15 @@
 
     <div class="container">
         
-        <div class="input-group error">
+        <div class="input-group text-red">
             <label>Username *</label>
-            <input type="text" />
+            <input class="outline-red" type="text" />
             <div class="error-msg">Invalid Username</div>
         </div>
 
-        <div class="input-group error">
+        <div class="input-group text-red">
             <label>Password *</label>
-            <input type="password" />
+            <input class="outline-red" type="password" />
             <div class="error-msg">Invalid Password</div>
         </div>
 
@@ -58,19 +58,19 @@
         <div class="input-group">
             <label>Password *</label>
             <input type="password" />
-            <div class="error msg">Too short. Must be more than 6 characters</div>
+            <div class="text-red msg">Too short. Must be more than 6 characters</div>
         </div>
 
         <div class="input-group">
             <label>Password *</label>
             <input type="password" />
-            <div class="warning msg">Weak Password</div>
+            <div class="text-yellow msg">Weak Password</div>
         </div>
 
         <div class="input-group">
             <label>Password *</label>
             <input type="password" />
-            <div class="success msg">Good to go !!</div>
+            <div class="text-green msg">Good to go !!</div>
         </div>
 
     </div>

@@ -18,26 +18,6 @@
     border-radius: 50%;
 }
 
-.red {
-    background-color: var(--danger);
-}
-
-.blue {
-    background-color: var(--secondary);
-}
-
-.dark-blue {
-    background-color: var(--primary);
-}
-
-.yellow {
-    background-color: var(--warning);
-}
-
-.green {
-    background-color: var(--success);
-}
-
 .avatar-with-badge {
     position: relative;
     width: max-content;

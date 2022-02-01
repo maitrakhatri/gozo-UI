@@ -1,0 +1,89 @@
+@import url(./style.css);
+
+/* SHADOW */
+
+.shadow {
+    filter: drop-shadow(0 0 0.25rem black);
+}
+
+/* BACKGROUND COLORS */
+
+.bg-blue {
+    background-color: var(--blue)
+}
+
+.bg-lightblue {
+    background-color: var(--lightblue)
+}
+
+.bg-green {
+    background-color: var(--green)
+}
+
+.bg-red {
+    background-color: var(--red)
+}
+
+.bg-yellow {
+    background-color: var(--yellow)
+}
+
+.bg-gray {
+    background-color: var(--gray)
+}
+
+/* OUTLINE COLORS */
+
+.outline-blue {
+    border: 2px solid var(--blue);
+}
+
+.outline-lightblue {
+    border: 2px solid var(--lightblue);
+}
+
+.outline-green {
+    border: 2px solid var(--green);
+}
+
+.outline-red {
+    border: 2px solid var(--red);
+}
+
+.outline-yellow {
+    border: 2px solid var(--yellow);
+}
+
+.outline-gray {
+    border: 2px solid var(--gray);
+}
+
+/* TEXT COLORS */
+
+.text-white {
+    color: white;
+}
+
+.text-blue {
+    color: var(--blue);
+}
+
+.text-lightblue {
+    color: var(--lightblue);
+}
+
+.text-green {
+    color: var(--green);
+}
+
+.text-yellow {
+    color: var(--yellow);
+}
+
+.text-red {
+    color: var(--red);
+}
+
+.text-gray {
+    color: var(--gray);
+}
