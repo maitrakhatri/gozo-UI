@@ -1,7 +1,7 @@
 @import url(../CSS/main.css);
 
 * {
-    color: #333333;
+    color: var(--text-gray);
 }
 
 body {
@@ -95,4 +95,104 @@ nav a {
 
 .main-body {
     display: flex;
+}
+
+.page-title {
+    margin-bottom: 5rem;
+}
+
+.section-title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.code-snippets {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    z-index: -1;
+}
+
+.colors-container {
+    display: flex;
+    gap: 2rem;
+    flex-flow: wrap;
+    margin: 2rem;
+}
+
+.colorbox {
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 1rem;
+}
+
+.color #blue {
+    background-color: var(--blue);
+}
+
+.color #lightblue {
+    background-color: var(--lightblue);
+}
+
+.color #green {
+    background-color: var(--green);
+}
+
+.color #yellow {
+    background-color: var(--yellow);
+}
+
+.color #red {
+    background-color: var(--red);
+}
+
+.color #gray {
+    background-color: var(--gray);
+    outline: 1px solid black;
+}
+
+.color #text-gray {
+    background-color: var(--text-gray);
+}
+
+.component-container {
+    background-color: #33333313;
+    padding: 2rem;
+    margin: 3rem;
+    border-radius: .35rem;
+    width: fit-content;
+}
+
+.avatar-container {
+    display: flex;
+    padding: 1rem;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.badge-container {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.badge-on-avatar, .badge-on-icon {
+    display: flex;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+.button-container div {
+    margin: 2rem;
+}
+
+.button-container button {
+    margin: .5rem;
+}
+
+button#bfc-show {
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
 }

@@ -15,10 +15,10 @@
         </div>
         <div class="nav-links">
             <div class="nav-item">
-                <a href="gettingStarted.html" rel="noopener noreferrer">Get Started</a>
+                <a href="./gettingStarted.html" rel="noopener noreferrer">Get Started</a>
             </div>
             <div class="nav-item">
-                <a href="components.html" rel="noopener noreferrer">Docs</a>
+                <a href="./components.html" rel="noopener noreferrer">Docs</a>
             </div>
             <div class="nav-items">
                 <a href="https://github.com/maitrakhatri/gozo-UI" rel="noopener noreferrer"><img src="../assets/GitHub-Mark-32px.png" alt="GitHub Link"></a>
@@ -26,23 +26,227 @@
         </div>
     </nav>
 
-    <aside class="sidebar">
+    <div class="main-body">
 
-        <a href="./gettingStarted.html">Getting Started</a>
-        <a href="./designSystem.html">Design System</a>
-        <a class="sidebar-header" href="./components.html" id="active">Components</a>
-        <a class="sidebar-components" href="#">Alert</a>
-        <a class="sidebar-components" href="#">Avatar</a>
-        <a class="sidebar-components" href="#">Badge</a>
-        <a class="sidebar-components" href="#">Button</a>
-        <a class="sidebar-components" href="#">Card</a>
-        <a class="sidebar-components" href="#">Image</a>
-        <a class="sidebar-components" href="#">Input</a>
-    </aside>
+        <aside class="sidebar">
 
-    <main class="body">
+            <a href="./gettingStarted.html">Getting Started</a>
+            <a href="./designSystem.html">Design System</a>
+            <a class="sidebar-header" href="./components.html" id="active">Components</a>
+            <a class="sidebar-components" href="./components.html#alert">Alert</a>
+            <a class="sidebar-components" href="./components.html#avatar">Avatar</a>
+            <a class="sidebar-components" href="#">Badge</a>
+            <a class="sidebar-components" href="#">Button</a>
+            <a class="sidebar-components" href="#">Card</a>
+            <a class="sidebar-components" href="#">Image</a>
+            <a class="sidebar-components" href="#">Input</a>
+        </aside>
 
-    </main>
+        <main class="body">
+
+            <h1 class="page-title">Components</h1>
+
+            <div id="alert" class="section">
+                <h2 class="section-title">Alert</h2>
+                <p>An alert displays a short, important message in a way that attracts the user's attention without interrupting the user's task.</p>
+
+                <div class="component-container alert-container">
+
+                    <div class="alert bg-blue text-white">
+                        This is a Primary Alert !!
+                    </div>
+                
+                    <div class="alert bg-lightblue text-white">
+                        This is a Secondary Alert !!
+                    </div>
+                
+                    <div class="alert bg-green text-white">
+                        This is a Success Alert !!
+                    </div>
+                
+                    <div class="alert bg-yellow text-white">
+                        This is a Warning Alert !!
+                    </div>
+                
+                    <div class="alert bg-red text-white">
+                        This is a Danger Alert !!
+                    </div>
+                
+                    <div class="alert outline-blue text-blue">
+                        This is an outline Primary Alert !!
+                    </div>
+                
+                    <div class="alert outline-lightblue text-lightblue">
+                        This is an outline Secondary Alert !!
+                    </div>
+                
+                    <div class="alert outline-green text-green">
+                        This is an outline Success Alert !!
+                    </div>
+                
+                    <div class="alert outline-yellow text-yellow">
+                        This is an outline Warning Alert !!
+                    </div>
+                
+                    <div class="alert outline-red text-red">
+                        This is an outline Danger Alert !!
+                    </div>
+
+                </div>
+                <div class="code-snippets">
+                    <iframe src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520bg-blue%2520text-white%2522%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520Primary%2520Alert%2520%21%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520bg-lightblue%2520text-white%2522%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520Secondary%2520Alert%2520%21%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520bg-green%2520text-white%2522%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520Success%2520Alert%2520%21%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520bg-yellow%2520text-white%2522%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520Warning%2520Alert%2520%21%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520bg-red%2520text-white%2522%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520Danger%2520Alert%2520%21%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520outline-blue%2520text-blue%2522%253E%250A%2520%2520%2520%2520This%2520is%2520an%2520outline%2520Primary%2520Alert%2520%21%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520outline-lightblue%2520text-lightblue%2522%253E%250A%2520%2520%2520%2520This%2520is%2520an%2520outline%2520Secondary%2520Alert%2520%21%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520outline-green%2520text-green%2522%253E%250A%2520%2520%2520%2520This%2520is%2520an%2520outline%2520Success%2520Alert%2520%21%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520outline-yellow%2520text-yellow%2522%253E%250A%2520%2520%2520%2520This%2520is%2520an%2520outline%2520Warning%2520Alert%2520%21%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520outline-red%2520text-red%2522%253E%250A%2520%2520%2520%2520This%2520is%2520an%2520outline%2520Danger%2520Alert%2520%21%21%250A%253C%252Fdiv%253E" style="width: 572px; height: 895px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin"></iframe>
+
+                </div>
+            </div>
+
+            <div id="avatar" class="section">
+                <h2 class="section-title">Avatar</h2>
+                <p>Avatars are used to identify movers and for users to navigate to find their profile, account and details.</p>
+
+                <div class="component-container avatar-container">
+                    <img class="avatar avatar-round" src="../../../assets/avatar.svg" alt="avatar">
+                    <img class="avatar-xl avatar-round" src="../../../assets/avatar.svg" alt="avatar">
+                    <img class="avatar-xxl avatar-round" src="../../../assets/avatar.svg" alt="avatar">
+                    <br>
+                    <img class="avatar avatar-square" src="../../../assets/avatar.svg" alt="avatar">
+                    <img class="avatar-xl avatar-square" src="../../../assets/avatar.svg" alt="avatar">
+                    <img class="avatar-xxl avatar-square" src="../../../assets/avatar.svg" alt="avatar">
+                </div>
+
+                <div class="code-snippets">
+                    <iframe src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2520avatar-round%2522%2520src%253D%2522...%2522%2520alt%253D%2522avatar%2522%253E%250A%253Cimg%2520class%253D%2522avatar-xl%2520avatar-round%2522%2520src%253D%2522...%2522%2520alt%253D%2522avatar%2522%253E%250A%253Cimg%2520class%253D%2522avatar-xxl%2520avatar-round%2522%2520src%253D%2522...%2522%2520alt%253D%2522avatar%2522%253E%250A%250A%253Cimg%2520class%253D%2522avatar%2520avatar-square%2522%2520src%253D%2522...%2522%2520alt%253D%2522avatar%2522%253E%250A%253Cimg%2520class%253D%2522avatar-xl%2520avatar-square%2522%2520src%253D%2522...%2522%2520alt%253D%2522avatar%2522%253E%250A%253Cimg%2520class%253D%2522avatar-xxl%2520avatar-square%2522%2520src%253D%2522...%2522%2520alt%253D%2522avatar%2522%253E" style="width: 650px; height: 299px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin"></iframe>
+
+                </div>
+            </div>
+
+            <div id="badge" class="section">
+                <h2 class="section-title">Badge</h2>
+                <p>Badges contain numeric values and indicate a running tally, such as the number of messages or notifications.</p>
+
+                <div class="badge-container">
+
+                    <h3>Badge on Icon</h3>
+                    <div class="component-container badge-on-icon">
+
+                        <div class="icon-with-badge">
+                            <img src="../../../assets/chat_black_48dp.svg" alt="chat icon with badge">
+                            <span class="badge bg-red">5</span>
+                        </div>
+                    
+                        <div class="icon-with-badge">
+                            <img src="../../../assets/chat_black_48dp.svg" alt="chat icon with badge">
+                            <div class="badge bg-lightblue">13</div>
+                        </div>
+                    
+                        <div class="icon-with-badge">
+                            <img src="../../../assets/chat_black_48dp.svg" alt="chat icon with badge">
+                            <div class="badge bg-blue">2</div>
+                        </div>
+                    
+                        <div class="icon-with-badge">
+                            <img src="../../../assets/chat_black_48dp.svg" alt="chat icon with badge">
+                            <div class="badge bg-yellow">13</div>
+                        </div>
+                    
+                        <div class="icon-with-badge">
+                            <img src="../../../assets/chat_black_48dp.svg" alt="chat icon with badge">
+                            <div class="badge bg-green">56</div>
+                        </div>
+                    
+                    </div>
+
+                    <div class="code-snippets">
+                        <iframe src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522icon-with-badge%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522chat%2520icon%2520with%2520badge%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520bg-red%2522%253Enumber%2520here%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522icon-with-badge%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522chat%2520icon%2520with%2520badge%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520bg-lightblue%2522%253Enumber%2520here%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522icon-with-badge%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522chat%2520icon%2520with%2520badge%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520bg-blue%2522%253Enumber%2520here%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522icon-with-badge%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522chat%2520icon%2520with%2520badge%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520bg-yellow%2522%253Enumber%2520here%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522icon-with-badge%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522chat%2520icon%2520with%2520badge%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520bg-green%2522%253Enumber%2520here%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"style="width: 580px; height: 616px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin"></iframe>
+
+                    </div>
+                    
+                    <h3>Badge on Avatar</h3>
+                    <div class="component-container badge-on-avatar">
+                    
+                        <div class="avatar-with-badge">
+                            <img class="avatar avatar-round" src="../../../assets/avatar.svg" alt="avatar">
+                            <div class="badge-avatar bg-green"> </div>
+                        </div>
+                    
+                        <div class="avatar-with-badge">
+                            <img class="avatar avatar-round" src="../../../assets/avatar.svg" alt="avatar">
+                            <div class="badge-avatar bg-red"> </div>
+                        </div>
+                    
+                        <div class="avatar-with-badge">
+                            <img class="avatar avatar-round" src="../../../assets/avatar.svg" alt="avatar">
+                            <div class="badge-avatar bg-yellow"> </div>
+                        </div>
+                    
+                    </div>
+
+                    <div class="code-snippets">
+                        <iframe src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar-with-badge%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-round%2522%2520src%253D%2522...%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-avatar%2520bg-green%2522%253E%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522avatar-with-badge%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-round%2522%2520src%253D%2522...%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-avatar%2520bg-red%2522%253E%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522avatar-with-badge%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-round%2522%2520src%253D%2522...%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-avatar%2520bg-yellow%2522%253E%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E" style="width: 639px; height: 500px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin"></iframe>
+
+                    </div>
+                </div>
+            </div>
+
+            <h2 id="button" class="section-title">Button</h2>
+            <p>Buttons allow users to take actions, and make choices, with a single tap.</p>
+
+            <div class="component-container button-container">
+
+                <div>
+                    <button class="btn btn-blue">Primary Button</button>
+                    <button class="btn btn-lightblue">Secondary Button</button>
+                    <button class="btn btn-green">Success Button</button>
+                    <button class="btn btn-yellow">Warning Button</button>
+                    <button class="btn btn-red">Danger Button</button>
+                </div>
+                
+                <div>
+                    <button class="btn btn-outline-blue">Outline Primary Button</button>
+                    <button class="btn btn-outline-lightblue"> OutlineSecondary Button</button>
+                    <button class="btn btn-outline-green">Outline Success Button</button>
+                    <button class="btn btn-outline-yellow">Outline Warning Button</button>
+                    <button class="btn btn-outline-red">Outline Danger Button</button>
+                </div>
+                
+                <div>
+                    <button class="btn btn-hover btn-outline-blue">Hoverable Outline Primary Button</button>
+                    <button class="btn btn-hover btn-outline-lightblue">Hoverable Outline Secondary Button</button>
+                    <button class="btn btn-hover btn-outline-green">Hoverable Outline Success Button</button>
+                    <button class="btn btn-hover btn-outline-yellow">Hoverable Outline Warning Button</button>
+                    <button class="btn btn-hover btn-outline-red">Hoverable Outline Danger Button</button>
+                </div>
+                
+                <div>
+                    <button class="btn btn-outline-lightblue"><a href="#">Link Button</a></button>
+                </div>
+                
+                <div>
+                    <button class="btn btn-lightblue"><img src="../assets/download_white_24dp.svg" alt="download"></button>
+                </div>
+
+                <div>
+                    <button id="bfc-show" class="btn btn-red"><img src="../assets/arrow_upward_white_24dp.svg" alt="go to top"></button>
+                </div>
+
+            </div>
+
+
+            <div class="code-snippets">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-blue%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-lightblue%2522%253ESecondary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-green%2522%253ESuccess%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-yellow%2522%253EWarning%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-red%2522%253EDanger%2520Button%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-blue%2522%253EOutline%2520Primary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-lightblue%2522%253E%2520OutlineSecondary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-green%2522%253EOutline%2520Success%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-yellow%2522%253EOutline%2520Warning%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-red%2522%253EOutline%2520Danger%2520Button%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-hover%2520btn-outline-blue%2522%253EHoverable%2520Outline%2520Primary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-hover%2520btn-outline-lightblue%2522%253EHoverable%2520Outline%2520Secondary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-hover%2520btn-outline-green%2522%253EHoverable%2520Outline%2520Success%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-hover%2520btn-outline-yellow%2522%253EHoverable%2520Outline%2520Warning%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-hover%2520btn-outline-red%2522%253EHoverable%2520Outline%2520Danger%2520Button%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-lightblue%2522%253E%253Ca%2520href%253D%2522%2523%2522%253ELink%2520Button%253C%252Fa%253E%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-lightblue%2522%253E%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522download%2522%253E%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-floating-action%2520btn-red%2522%253E%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522go-to-top%2522%253E%253C%252Fbutton%253E" style="width: 934px; height: 650px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin"></iframe>
+
+            </div>
+
+            <div id="card" class="section">
+
+                <h2 class="section-title">Card</h2>
+                <p>Cards can be of any shape, color and form. But in general, they all contain pictures, icons and some basic text information, such as title, user name and location information.</p>
+
+                
+            </div>
+
+        </main>
+
+    </div>
     
 </body>
 </html>

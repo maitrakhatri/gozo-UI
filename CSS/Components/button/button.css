@@ -83,6 +83,7 @@
     right: 5%;
     padding: .5rem .75rem;
     border-radius: 50%;
+    z-index: 99;
 }
 
 .btn a {

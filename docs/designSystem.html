@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Getting Started</title>
+    <title>Design System</title>
     <link rel="stylesheet" href="./docs.css">
 </head>
 <body>
@@ -26,23 +26,62 @@
         </div>
     </nav>
 
-    <aside class="sidebar">
+    <div class="main-body">
 
-        <a href="./gettingStarted.html">Getting Started</a>
-        <a href="./designSystem.html" id="active">Design System</a>
-        <a class="sidebar-header" href="./components.html">Components</a>
-        <a class="sidebar-components" href="#">Alert</a>
-        <a class="sidebar-components" href="#">Avatar</a>
-        <a class="sidebar-components" href="#">Badge</a>
-        <a class="sidebar-components" href="#">Button</a>
-        <a class="sidebar-components" href="#">Card</a>
-        <a class="sidebar-components" href="#">Image</a>
-        <a class="sidebar-components" href="#">Input</a>
-    </aside>
+        <aside class="sidebar">
 
-    <main class="body">
+            <a href="./gettingStarted.html">Getting Started</a>
+            <a href="./designSystem.html" id="active">Design System</a>
+            <a class="sidebar-header" href="./components.html">Components</a>
+            <a class="sidebar-components" href="#">Alert</a>
+            <a class="sidebar-components" href="#">Avatar</a>
+            <a class="sidebar-components" href="#">Badge</a>
+            <a class="sidebar-components" href="#">Button</a>
+            <a class="sidebar-components" href="#">Card</a>
+            <a class="sidebar-components" href="#">Image</a>
+            <a class="sidebar-components" href="#">Input</a>
+        </aside>
 
-    </main>
+        <main class="body">
+
+            <div class="section">
+
+                <h1 class="page-title">Design System</h1>
+
+                <h2 class="section-title">Font</h2>
+                <p class="text-l">Font used: Source Sans Pro</p>
+                <p>P.S. It's already a part of Component Library, need not to import again</p>
+
+                <div class="code-snippets">
+                    <iframe src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F*%2520IMPORTING%2520FONT%2520*%252F%250A%2540import%2520url%28%27https%253A%252F%252Ffonts.googleapis.com%252Fcss2%253Ffamily%253DSource%252BSans%252BPro%253Awght%2540200%253B300%253B400%253B600%253B700%253B900%2526display%253Dswap%27%29%253B%250A%250A%252F*%2520APPLYING%2520FONT%2520*%252F%250A*%2520%257B%250A%2520%2520%2520%2520font-family%253A%2520%27Source%2520Sans%2520Pro%27%252C%2520sans-serif%253B%250A%257D" style="width: 1024px; height: 318px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin"></iframe>
+
+
+                </div>
+
+                <h2 class="section-title">Colors</h2>
+
+                <div class="colors-container">
+                    <div class="color"><div id="blue" class="colorbox"></div>Blue</div>
+                    <div class="color"><div id="lightblue" class="colorbox"></div>Light Blue</div>
+                    <div class="color"><div id="green" class="colorbox"></div>Green</div>
+                    <div class="color"><div id="yellow" class="colorbox"></div>Yellow</div>
+                    <div class="color"><div id="red" class="colorbox"></div>Red</div>
+                    <div class="color"><div id="gray" class="colorbox"></div>Gray</div>
+                    <div class="color"><div id="text-gray" class="colorbox"></div>Text Gray</div>
+                </div>
+
+                <div class="code-snippets">
+                    <iframe src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Aroot%2520%257B%250A%2520%2520%2520%2520--blue%253A%2520%252314213D%253B%250A%2520%2520%2520%2520--lightblue%253A%2520%25232E86AB%253B%250A%2520%2520%2520%2520--green%253A%2520rgb%2812%252C%2520195%252C%252012%29%253B%250A%2520%2520%2520%2520--red%253A%2520%2523F24236%253B%2520%250A%2520%2520%2520%2520--yellow%253A%2520%2523FCA311%253B%250A%2520%2520%2520%2520--gray%253A%2520%2523FAFAFA%253B%250A%2520%2520%2520%2520--text-gray%253A%2520%2523333333%253B%250A%257D" style="width: 386px; height: 337px; border:0; transform: scale(1); overflow:hidden;"sandbox="allow-scripts allow-same-origin"></iframe>
+
+                </div>
+
+
+
+            </div>
+
+        </main>
+
+    </div>
     
 </body>
 </html>
