@@ -20,6 +20,7 @@
     --red: #F24236; 
     --yellow: #FCA311;
     --gray: #FAFAFA;
+    --text-gray: #333333;
 }
 
 @import url(./Components/alert/alert.css);
@@ -29,3 +30,4 @@
 @import url(./Components/card/card.css);
 @import url(./Components/image/image.css);
 @import url(./Components/input/input.css);
+@import url(./Components/text-utilities/text-utilities.css);
