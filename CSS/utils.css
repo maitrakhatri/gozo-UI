@@ -1,13 +1,9 @@
-@import url(./style.css);
-
 /* SHADOW */
-
 .shadow {
     filter: drop-shadow(0 0 0.25rem black);
 }
 
 /* BACKGROUND COLORS */
-
 .bg-blue {
     background-color: var(--blue)
 }
@@ -37,7 +33,6 @@
 }
 
 /* OUTLINE COLORS */
-
 .outline-blue {
     border: 2px solid var(--blue);
 }

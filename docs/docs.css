@@ -1,4 +1,4 @@
-@import url(../CSS/main.css);
+@import url(../CSS/style.css);
 
 h1,h2,h3,p,a {
     color: var(--text-gray);
@@ -7,6 +7,8 @@ h1,h2,h3,p,a {
 body {
     background-color: var(--gray);
 }
+
+/* <---------- HOMEPAGE ----------> */
 
 .homepage-container {
     width: 100vw;
@@ -38,6 +40,8 @@ body {
     font-size: 1.5rem;
 }
 
+/* <---------- NAVBAR ----------> */
+
 nav {
     display: flex;
     padding: 3rem;
@@ -63,6 +67,8 @@ nav a {
 main {
     margin-left: 15rem;
 }
+
+/* <---------- SIDEBAR ----------> */
 
 .sidebar {
     position: fixed;
@@ -96,9 +102,7 @@ main {
     font-weight: bold;
 }
 
-/* .main-body {
-    display: flex;
-} */
+/* <---------- COMPONENTS PAGE ----------> */
 
 .page-title {
     margin-bottom: 5rem;
@@ -115,7 +119,7 @@ main {
     margin-left: 1rem;
 }
 
-.section p {
+.section > p {
     margin-left: 2rem;
 }
 
@@ -176,8 +180,6 @@ main {
     width: fit-content;
 }
 
-
-
 .alert-container {
     width: initial;
 }
@@ -225,8 +227,4 @@ button#bfc-show {
     flex-direction: column;
     gap: 2rem;
     width: inherit;
-}
-
-.component-container img {
-    margin: 0.5rem;
 }
