@@ -72,3 +72,31 @@ p {
 .text-right {
     text-align: right;
 }
+
+.text-white {
+    color: white;
+}
+
+.text-blue {
+    color: var(--blue);
+}
+
+.text-lightblue {
+    color: var(--lightblue);
+}
+
+.text-green {
+    color: var(--green);
+}
+
+.text-yellow {
+    color: var(--yellow);
+}
+
+.text-red {
+    color: var(--red);
+}
+
+.text-gray {
+    color: var(--text-gray);
+}

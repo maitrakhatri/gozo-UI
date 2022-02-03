@@ -32,6 +32,10 @@
     background-color: var(--gray)
 }
 
+.bg-text-gray {
+    background-color: var(--text-gray);
+}
+
 /* OUTLINE COLORS */
 
 .outline-blue {
@@ -58,32 +62,6 @@
     border: 2px solid var(--gray);
 }
 
-/* TEXT COLORS */
-
-.text-white {
-    color: white;
-}
-
-.text-blue {
-    color: var(--blue);
-}
-
-.text-lightblue {
-    color: var(--lightblue);
-}
-
-.text-green {
-    color: var(--green);
-}
-
-.text-yellow {
-    color: var(--yellow);
-}
-
-.text-red {
-    color: var(--red);
-}
-
-.text-gray {
-    color: var(--text-gray);
+.outline-text-gray {
+    border: 2px solid var(--text-gray);
 }

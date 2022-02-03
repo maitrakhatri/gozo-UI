@@ -1,6 +1,6 @@
 @import url(../CSS/main.css);
 
-* {
+h1,h2,h3,p,a {
     color: var(--text-gray);
 }
 
@@ -60,16 +60,19 @@ nav a {
     align-items: center;
 }
 
+main {
+    margin-left: 15rem;
+}
+
 .sidebar {
-    /* position: absolute; */
-    /* height: 100%; */
-    width: 150px;
+    position: fixed;
+    height: 100%;
+    width: 8rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     margin-left: 2rem;
     margin-top: 2rem;
-    margin-right: 6rem;
 }
 
 .sidebar a {
@@ -93,17 +96,23 @@ nav a {
     font-weight: bold;
 }
 
-.main-body {
+/* .main-body {
     display: flex;
-}
+} */
 
 .page-title {
     margin-bottom: 5rem;
 }
 
 .section-title {
-    margin-top: 1rem;
+    margin-top: 5rem;
     margin-bottom: 1rem;
+}
+
+.sub-section-title {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
 }
 
 .code-snippets {
@@ -157,10 +166,16 @@ nav a {
 
 .component-container {
     background-color: #33333313;
-    padding: 2rem;
+    padding: 1rem;
     margin: 3rem;
     border-radius: .35rem;
     width: fit-content;
+}
+
+
+
+.alert-container {
+    width: initial;
 }
 
 .avatar-container {
@@ -184,8 +199,10 @@ nav a {
     margin: 2rem;
 }
 
-.button-container div {
-    margin: 2rem;
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .button-container button {
@@ -195,4 +212,13 @@ nav a {
 button#bfc-show {
     aspect-ratio: 1 / 1;
     border-radius: 50%;
+}
+
+.input-container {
+    padding: 2rem 6rem;
+    border-radius: .25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: inherit;
 }
