@@ -794,7 +794,31 @@
 
         </div>
 
+        <div id="navigation" class="section">
+
+            <h2 class="section-title">Slider</h2>
+            <p>Slider is used to select input within a given range.</p>
+            <p>Here step attribute is used to set interval.</p>
+
+            <div class="component-container slider-container">
+                <input type="range" min="100" max="1000" step="100" id="slider">
+                <div id="slider-value"></div>
+            </div>
+
+            <div class="code-snippets">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522range%2522%2520min%253D%2522100%2522%2520max%253D%25221000%2522%2520step%253D%2522100%2522%2520id%253D%2522slider%2522%253E%250A%253Cdiv%2520id%253D%2522slider-value%2522%253E" style="width: 700px; height: 206px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin"></iframe>
+            </div>
+
+            <h3>JS used in Slider</h3>
+            <p>P.S. you need not to attach it. It's already included with gozo JS package</p>
+
+            <div class="code-snippets">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520slider%2520%253D%2520document.getElementById%28%2522slider%2522%29%253B%250Aconst%2520output%2520%253D%2520document.getElementById%28%2522slider-value%2522%29%253B%250Aoutput.innerHTML%2520%253D%2520slider.value%253B%2520%252F%252F%2520Display%2520the%2520default%2520slider%2520value%250A%250A%252F%252F%2520Update%2520the%2520current%2520slider%2520value%2520%28each%2520time%2520you%2520drag%2520the%2520slider%2520handle%29%250Aslider.addEventListener%28%2522input%2522%252C%2520%28%29%2520%253D%253E%2520output.innerText%2520%253D%2520slider.value%2520%29%253B" style="width: 1024px; height: 473px; border:0; transform: scale(1); overflow:hidden;"sandbox="allow-scripts allow-same-origin"></iframe>
+            </div>
+        </div>
+
     </main>
-    
+
+<script src="../JS/app.js"></script>
 </body>
 </html>
