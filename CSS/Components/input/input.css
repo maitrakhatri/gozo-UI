@@ -15,3 +15,7 @@
 .msg {
     font-size: small;
 }
+
+input[type=radio], input[type=checkbox] {
+    margin: 1rem;
+}
