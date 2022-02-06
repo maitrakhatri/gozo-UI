@@ -13,6 +13,7 @@
 @import url(./Components/image/image.css);
 @import url(./Components/input/input.css);
 @import url(./Components/text-utilities/text-utilities.css);
+@import url(./Components/navigation/navigation.css);
 
 /* FONT */
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');

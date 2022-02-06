@@ -228,3 +228,7 @@ button#bfc-show {
     gap: 2rem;
     width: inherit;
 }
+
+.navbar-container {
+    width:auto;
+}

@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+}
+
+.navbar-header {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    align-items: center;
+    margin-right: auto;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-header-title {
+    font-weight: bolder;
+}
+
+.navbar-container {
+    position: relative;
+}
