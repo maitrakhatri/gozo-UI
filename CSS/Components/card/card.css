@@ -1,3 +1,8 @@
+@import url(../../style.css);
+@import url(../badge/badge.css);
+@import url(../image/image.css);
+@import url(../button/button.css);
+
 .card {
     display: flex;
     flex-direction: column;
@@ -84,4 +89,78 @@
 
 .card-with-badge {
     position: relative;
+}
+
+/* PRODUCT CARD  */
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    gap: 1rem;
+}
+
+.product-image {
+    max-height: 320px;
+}
+
+.product-image-container {
+    position: relative;
+}
+
+.product-card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    text-align: center;
+}
+
+.product-action, .product-action * {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.product-price {
+    font-weight: bolder;
+    font-size: large;
+}
+
+.product-name {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.like-product {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 1;
+    border-radius: 50%;
+    padding: 0.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.like-product img {
+    width: 24px;
+    height: 24px;
+}
+
+.product-horizontal {
+    flex-direction: row;
+    width: fit-content;
+}
+
+.product-horizontal .product-card-body {
+    margin: 1rem;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.product-horizontal .product-name {
+    margin: 0;
 }
