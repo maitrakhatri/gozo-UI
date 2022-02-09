@@ -232,3 +232,15 @@ button#bfc-show {
 .navbar-container {
     width:auto;
 }
+
+.grid-item {
+    padding: 1rem 2rem;
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    margin: 1rem;
+}
+
+.grid-show-container {
+    width: auto;
+}
