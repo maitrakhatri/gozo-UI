@@ -1,0 +1,38 @@
+.list-inline li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+.list-stacked {
+    list-style: none;
+    padding: 1rem;
+    background-color: var(--text-gray)
+}
+
+.list-stacked li {
+    margin-bottom: 1.5rem;
+}
+
+.stacked-component {
+    display: grid;
+    grid-template-areas: 
+    "a t"
+    "a s";
+    width: fit-content;
+    background-color: var(--gray);
+    padding: 1rem;
+    border-radius: .25rem;
+}
+
+.stacked-component .avatar {
+    grid-area: a;
+    margin-right: 1rem;
+}
+
+.stacked-component .title {
+    grid-area: t;
+}
+
+.stacked-component .sub-title {
+    grid-area: s;
+}

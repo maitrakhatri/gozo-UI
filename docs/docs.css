@@ -76,10 +76,11 @@ main {
     width: 8rem;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: .65rem;
     margin-left: 2rem;
     /* margin-top: 2rem; */
     margin-bottom: 1rem;
+    overflow: auto;
 }
 
 .sidebar a {
