@@ -8,21 +8,21 @@
     color: white;
 }
 
-a {
+.snackbar a {
     text-decoration: none;
     color: blueviolet;
 }
 
-a, i {
+.snackbar a, .snackbar i {
     padding: 0.25rem;
 }
 
-a:hover, i img:hover {
+.snackbar a:hover,.snackbar i img:hover {
     cursor: pointer;
     background-color:rgba(128, 128, 128, 0.26);
 }
 
-button {
+.snackbar button {
     padding: 1rem 2rem;
     margin: 2rem;
 }
