@@ -1,16 +1,16 @@
 .snackbar {
-    background-color: rgb(51, 51, 51);
+    background-color: #333333;
     border-radius: .5rem;
     display: inline-flex;
     align-items: center;
     gap: 1rem;
     padding: .15rem .75rem;
-    color: white;
+    color: #ffffff;
 }
 
 .snackbar a {
     text-decoration: none;
-    color: blueviolet;
+    color: #8a2be2;
 }
 
 .snackbar a, .snackbar i {
@@ -19,7 +19,7 @@
 
 .snackbar a:hover,.snackbar i img:hover {
     cursor: pointer;
-    background-color:rgba(128, 128, 128, 0.26);
+    background-color:#80808042;
 }
 
 .snackbar button {
