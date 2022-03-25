@@ -1,0 +1,13 @@
+.modal .card-body {
+    border-bottom: 0.063rem solid #000000;
+}
+
+.modal .card-action {
+    padding: .75rem;
+    display: flex;
+    justify-content: end;
+}
+
+.modal button {
+    margin: 0.25rem;
+}

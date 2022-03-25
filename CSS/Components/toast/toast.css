@@ -1,0 +1,28 @@
+.snackbar {
+    background-color: #333333;
+    border-radius: .5rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    padding: .15rem .75rem;
+    color: #ffffff;
+}
+
+.snackbar a {
+    text-decoration: none;
+    color: #8a2be2;
+}
+
+.snackbar a, .snackbar i {
+    padding: 0.25rem;
+}
+
+.snackbar a:hover,.snackbar i img:hover {
+    cursor: pointer;
+    background-color:#80808042;
+}
+
+.snackbar button {
+    padding: 1rem 2rem;
+    margin: 2rem;
+}
