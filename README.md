@@ -7,22 +7,22 @@ copy paste this code in your `<head>` section to use the CSS library
 head over to the documentation website for details on how to use components
 - [Documentation Website](https://gozo-ui.netlify.app/docs/components.html)
 ## Components
-- alert
-- avatar
-- badge
-- button
-- card
-- image
-- input
-- navigation
-- simplified grid
-- slider
+- Alert
+- Avatar
+- Badge
+- Button
+- Card
+- Image
+- Input
+- Navigation
+- Simplified grid
+- Slider
 - List
 - Rating
 - Modal
 - Snackbar
-- text utilities
-- utilities
+- Text utilities
+- Ttilities
 ## Documentation Website
 ### Homepage
 ![gozo UI Homepage - Maitra Khatri](https://user-images.githubusercontent.com/54719132/153269251-45bb95c0-743a-4a13-94d4-227246bf0df5.png)
