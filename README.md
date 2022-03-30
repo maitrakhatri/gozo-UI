@@ -17,6 +17,10 @@ head over to the documentation website for details on how to use components
 - navigation
 - simplified grid
 - slider
+- List
+- Rating
+- Modal
+- Snackbar
 - text utilities
 - utilities
 ## website
