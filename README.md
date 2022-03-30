@@ -22,7 +22,7 @@ head over to the documentation website for details on how to use components
 - Modal
 - Snackbar
 - Text utilities
-- Ttilities
+- Utilities
 ## Documentation Website
 ### Homepage
 ![gozo UI Homepage - Maitra Khatri](https://user-images.githubusercontent.com/54719132/153269251-45bb95c0-743a-4a13-94d4-227246bf0df5.png)
