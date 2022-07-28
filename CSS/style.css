@@ -15,9 +15,15 @@
 @import url(./Components/text-utilities/text-utilities.css);
 @import url(./Components/navigation/navigation.css);
 @import url(./Components/simplified-grid/simplified-grid.css);
+@import url(./Components/list/list.css);
+@import url(./Components/modal/modal.css);
+@import url(./Components/toast/toast.css);
 
 /* FONT */
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+/* FONT AWESOME ICONS */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 /* APPLYING FONT */
 * {
@@ -34,3 +40,7 @@
     --gray: #FAFAFA;
     --text-gray: #333333;
 }
+
+.checked {
+    color: orange;
+  }
